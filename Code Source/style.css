@@ -69,15 +69,16 @@
                 background: #FFFFFF;
                 border: 3px solid #27153E;
                 box-sizing: border-box;
-                box-shadow: 4px 4px 0px #27153e;
+                box-shadow: 2px 2px 0px #27153e;
                 border-radius: 20px;
                 text-decoration: none;
-                margin: -50px 0px 0px 418px;
+                margin: 112px 0px 0px -482px;
                 float: left;
             }
             button:hover{
                 color: #FFFFFF;
                 background-color:#27153e ;
+                box-shadow:5px 5px 2px #FFFFFF;
                 transition: 0.4s;
             }
             button:focus{
@@ -89,9 +90,8 @@
             button:active{
                 color: #FFFFFF;
                 background-color:#27153e ;
+                box-shadow: 2px 2px 0px #FFFFFF;
                 transition: 0.4s;
-                margin-bottom:8px; 
-
             }
             .container{
                 display: grid;
