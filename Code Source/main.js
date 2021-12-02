@@ -19,10 +19,10 @@ btn.addEventListener( 'click', function theProcess(){
         } 
     }
     else if (input < nombre){
-        output.innerHTML =  "C'est raté !! Essay d'augmenter";
+        output.innerHTML =  "C'est raté !! Essayez d'augmenter la prochaine fois";
     }
         else if(input > nombre){
-            output.innerHTML =  "C'est raté !! Essay de baisser";
+            output.innerHTML =  "C'est raté !! Essayez de baisser la prochaine fois";
     }
     if(tentatives == 10){
         endGame.style.display="none"
