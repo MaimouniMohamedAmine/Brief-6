@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&family=Text+Me+One&display=swap');
+*{  
+    margin:0;
+    padding:0;
+    font-size: 20px;
+    font-family: 'Orbitron', sans-serif;
+    color: white;
+
+}
+body{
+    background-image: linear-gradient(#27153E, #ffff);
+    height: 100vh;
+}
+
+main {
+    height: 100vh;
+    position: relative;
+}
+.squareShape {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    border: 3px solid #27153E;
+    padding: 7% 6% 7% 3%;
+    /*margin: 16% 34% 0 35%; */
+    background-color: #5140FF;
+    box-shadow: 5px 4px 0px #27153e;
+    width: 28%;
+    /* height: 14vh; */
+}
+.titre p{
+    font-size: 30px;
+    margin: -3% 0 0 0;
+    background-color:  #27153e ;
+    padding: 5px;
+}
+
+a{
+    font-size: 20px;
+    color: black;
+
+}
+button {
+    
+    width: 90px;
+    height: 50px;
+    left: 977px;
+    top: 580px;
+    background: #FFFFFF;
+    border: 3px solid #27153E;
+    box-sizing: border-box;
+    box-shadow: 4px 4px 0px #27153e;
+    border-radius: 20px;
+    text-decoration: none;
+    margin: -17vh 0 0 353px;
+    z-index: 3;
+}
+input {
+    width: 316px;
+    height: 46px;
+    /* left: 277px; */
+    /* top: 580px; */
+    background: rgba(39, 21, 62, 0.2);
+    border: 3px solid #27153E;
+    box-sizing: border-box;
+    border-radius: 20px;
+    margin: 0vh -8% 0% 0;
+    z-index: 2;
+}
+
+#tent {
+    position: relative;
+    margin-left: 82%;
+    text-align: center;
+}
+img {
+    float: left;
+    width: 20%;
+    margin: -22% 0 0 80%;
+}
