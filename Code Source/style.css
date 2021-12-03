@@ -38,9 +38,11 @@
                 width: 100%;
             }
             #outputtext {
-                margin: 7% 0 -10% 13%;
+                font-size: 21px;
+                font-weight: bold;
+                margin: 7% 0 -10% 4%;
                 float: left;
-                width: 60%;
+                width: 80%;
                 text-align: center;
             }
             #tent {
@@ -50,7 +52,7 @@
             span {
                 line-height: 3;
                 position: relative;
-                margin-left: 88%;
+                margin-left: 59%;
                 text-align: center;
             }
             img {
