@@ -15,7 +15,7 @@ btn.addEventListener( 'click', function theProcess(){
             endGame.style.display="none";
         }
         else {
-            output.innerHTML = "Félicitations, vous avez gagné après "+tentatives+"  tentatives";
+            output.innerHTML = "Félicitations, vous avez gagné après "+(tentatives-1)+"  tentatives";
             endGame.style.display="none";
         } 
     }
