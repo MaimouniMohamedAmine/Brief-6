@@ -2,7 +2,8 @@ let btn = document.getElementById('btn');
 let output = document.getElementById("outputtext");
 let nombre = parseInt((Math.random() * 100)+1);
 let tentatives = 0;
-let endGame = document.getElementById('input')
+let endGame = document.getElementById('input');
+let tnt = document.getElementById("tnt")
 
 btn.addEventListener( 'click', function theProcess(){
     tentatives++;
@@ -19,9 +20,11 @@ btn.addEventListener( 'click', function theProcess(){
         } 
     }
     else if (input < nombre){
+        tnt.innerHTML = 10 - tentatives;
         output.innerHTML =  "C'est raté !! Essayez d'augmenter la prochaine fois";
     }
-        else if(input > nombre){
+    else if(input > nombre){
+        tnt.innerHTML = 10 - tentatives;
             output.innerHTML =  "C'est raté !! Essayez de baisser la prochaine fois";
     }
     if(tentatives == 10){
